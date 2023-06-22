@@ -34,10 +34,10 @@ class FadeWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FadeWidgetState createState() => _FadeWidgetState();
+  FadeWidgetState createState() => FadeWidgetState();
 }
 
-class _FadeWidgetState extends State<FadeWidget>
+class FadeWidgetState extends State<FadeWidget>
     with SingleTickerProviderStateMixin {
   late Animation<double> opacity;
   late AnimationController controller;

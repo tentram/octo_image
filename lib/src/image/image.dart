@@ -291,10 +291,10 @@ class OctoImage extends StatefulWidget {
         super(key: key);
 
   @override
-  _OctoImageState createState() => _OctoImageState();
+  OctoImageState createState() => OctoImageState();
 }
 
-class _OctoImageState extends State<OctoImage> {
+class OctoImageState extends State<OctoImage> {
   ImageHandler? _previousHandler;
   late ImageHandler _imageHandler;
 
